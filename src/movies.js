@@ -74,7 +74,7 @@ function orderAlphabetically(arrMovies) {
   })
   return sortTitle.map(movie => {
     return movie.title
-  })
+  }).slice(0,20)
   }
   
 console.log(orderAlphabetically(movies))
